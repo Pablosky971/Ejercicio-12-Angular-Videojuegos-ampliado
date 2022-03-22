@@ -1,3 +1,4 @@
-<p>
-  videojuegos works!
-</p>
+<app-videojuego *ngFor="let v of listaVideojuegos" (click)="seleccionar(v)"
+[videojuego]="v">
+  
+</app-videojuego>

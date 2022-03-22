@@ -11,6 +11,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { VideojuegoComponent } from './componentes/videojuego/videojuego.component';
 import { VideojuegosComponent } from './componentes/videojuegos/videojuegos.component';
+import { DetalleComponent } from './componentes/detalle/detalle.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { VideojuegosComponent } from './componentes/videojuegos/videojuegos.comp
     LoginComponent,
     MenuComponent,
     VideojuegoComponent,
-    VideojuegosComponent
+    VideojuegosComponent,
+    DetalleComponent
 
   ],
   imports: [

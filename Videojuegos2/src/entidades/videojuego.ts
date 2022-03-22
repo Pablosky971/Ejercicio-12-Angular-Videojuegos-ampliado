@@ -5,16 +5,19 @@ export class Videojuego {
     private _compania: string = "";
     
     private _valoracionMedia: number = 0;
+    private _icono: string = "";
+    
     
     
 
     private static contadorId: number = 1;
 
-    constructor(titulo: string, compania: string, valoracionMedia: number) {
+    constructor(titulo: string, compania: string, valoracionMedia: number, icono: string) {
         this._id = Videojuego.contadorId++;
         this._titulo = titulo;
         this._compania=compania;
         this._valoracionMedia=valoracionMedia;
+        this._icono=icono;
     }
     
 
@@ -45,7 +48,13 @@ export class Videojuego {
     public set valoracionMedia(value: number) {
         this._valoracionMedia = value;
     }
-
+    
+    public get icono(): string {
+        return this._icono;
+    }
+    public set icono(value: string) {
+        this._icono = value;
+    }
     
     
 
