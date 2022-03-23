@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Videojuego } from 'src/entidades/videojuego';
+import {Router} from '@angular/router'
 
 
 @Component({

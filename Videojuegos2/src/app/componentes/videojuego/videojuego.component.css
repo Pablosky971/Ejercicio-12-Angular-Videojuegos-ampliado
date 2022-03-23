@@ -1,0 +1,16 @@
+img {
+    width: 50px;
+    height: 50px;
+}
+
+span {
+    display: inline;
+    margin-right: 2%;
+}
+
+div.videojuego {
+    
+    border: solid 2px;
+    border-color: black;
+    background-color: azure;
+}

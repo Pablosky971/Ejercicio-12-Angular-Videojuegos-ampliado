@@ -28,8 +28,9 @@ const routes: Routes = [
   component: ContactoComponent
 },
 
+
 {
-  path: 'componentDetalle/:id/:titulo/:compania/:valoracionMedia/:icono',
+  path: 'componentDetalles/:id/:titulo/:compania/:valoracion/:icono',
   component: DetalleComponent
 },
 
