@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, RouteConfigLoadEnd} from '@angular/router';
+import { Usuario } from 'src/entidades/usuario';
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',

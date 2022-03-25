@@ -1,3 +1,35 @@
+div.login {
+
+    background-color: aliceblue;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    padding: 2%;
+    width: 96%
+
+
+}
+
 input {
     display:block
+}
+
+span.error {
+    color: red;
+}
+
+button {
+    margin-top: 1%;
+    color: black;
+    background-color: navajowhite;
+    
+}
+
+button:hover {
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+
 }
