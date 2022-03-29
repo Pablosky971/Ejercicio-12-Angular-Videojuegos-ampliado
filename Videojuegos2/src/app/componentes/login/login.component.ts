@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
 
   constructor(private router:Router) { 
     
-    let usuario1: Usuario = new Usuario("Pablosky", "XOXOGriffindor");
+    let usuario1: Usuario = new Usuario("Pablosky", "XOXOGryffindor");
     this.listaUsuarios.push(usuario1)
     
     let usuario2: Usuario = new Usuario("Mery", "XOXOSlytherin");
@@ -48,14 +48,16 @@ export class LoginComponent implements OnInit {
       } 
      
 
-        if(!(this.nombre.match(usuario.nombre))) {
+        if(!(this.nombre.match(usuario.nombre)) && this.password.match(usuario.password)) {
           this.falloNombre = false
+          this.falloPassword = true
   
         
         } 
         
-        if(!(this.password.match(usuario.password))) {
+        if(!(this.password.match(usuario.password) && this.nombre.match(usuario.nombre))) {
           this.falloPassword = false
+          this.falloNombre = true
         }
 
 
