@@ -3,3 +3,14 @@ div.presentacion {
     background-color: khaki;
     border-radius: 10px;
 }
+
+button {
+    margin-top: 1%;
+    color: black;
+    background-color: navajowhite;
+    
+}
+
+button:hover {
+    border-radius: 10px;
+}

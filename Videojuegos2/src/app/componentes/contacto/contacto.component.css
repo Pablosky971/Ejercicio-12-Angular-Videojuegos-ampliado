@@ -3,3 +3,14 @@ div.contacto {
     background-color: aliceblue;
     border-radius: 10px;
 }
+
+button {
+    margin-top: 1%;
+    color: black;
+    background-color: navajowhite;
+    
+}
+
+button:hover {
+    border-radius: 10px;
+}

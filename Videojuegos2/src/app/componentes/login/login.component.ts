@@ -50,14 +50,15 @@ export class LoginComponent implements OnInit {
 
         if(!(this.nombre.match(usuario.nombre)) && this.password.match(usuario.password)) {
           this.falloNombre = false
-          this.falloPassword = true
+          
   
         
         } 
         
         if(!(this.password.match(usuario.password) && this.nombre.match(usuario.nombre))) {
+         
           this.falloPassword = false
-          this.falloNombre = true
+          
         }
 
 

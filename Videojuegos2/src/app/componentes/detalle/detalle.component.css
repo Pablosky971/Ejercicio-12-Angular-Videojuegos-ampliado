@@ -1,4 +1,5 @@
 span {
+    font-size: larger;
     display: inline;
     margin-right: 3%;
 
@@ -19,6 +20,20 @@ div.detalles {
     background-color: bisque;
     padding: 3%;
     width: 40%;
-    top: 23%;
+    top: 25%;
     left: 3%;
+}
+
+button {
+    position: absolute;
+    margin-top: 1%;
+    color: black;
+    background-color: navajowhite;
+    top: 17%;
+    left: 3.5%;
+    
+}
+
+button:hover {
+    border-radius: 10px;
 }

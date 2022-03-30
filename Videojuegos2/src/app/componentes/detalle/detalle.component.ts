@@ -7,8 +7,7 @@ import {ActivatedRoute, Router} from '@angular/router';
 })
 export class DetalleComponent implements OnInit {
 
-  nombre: string="";
-  password: string="";
+ 
   id: number=0;
   titulo: string="";
   compania: string="";
@@ -20,8 +19,7 @@ export class DetalleComponent implements OnInit {
     this.compania = route.snapshot.params["compania"]
     this.valoracion = route.snapshot.params["valoracion"]
     this.icono = route.snapshot.params["icono"]
-    this.nombre=route.snapshot.params["nombre"]
-    this.password=route.snapshot.params["password"]    
+     
    }
 
   ngOnInit() {
